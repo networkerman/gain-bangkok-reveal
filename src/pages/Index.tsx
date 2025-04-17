@@ -15,11 +15,18 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-netcore-purple/80 to-netcore-purple/50"></div>
         <div className="container mx-auto px-4 z-10 py-20">
           <div className="max-w-3xl animate-fade-in flex flex-col items-center">
-            <img 
-              src="/lovable-uploads/81b146f0-8a93-400d-bdd9-7edbbf6ac6a2.png" 
-              alt="GAIN 2025 Logo" 
-              className="mb-6 max-w-full h-auto md:max-w-xl"
-            />
+            <div className="flex items-center space-x-4 mb-6">
+              <img 
+                src="/lovable-uploads/81b146f0-8a93-400d-bdd9-7edbbf6ac6a2.png" 
+                alt="GAIN 2025 Logo" 
+                className="max-w-full h-auto md:max-w-xl"
+              />
+              <img 
+                src="/lovable-uploads/d6970007-2ab7-4073-9098-d94ee5012b0f.png" 
+                alt="Netcore Logo" 
+                className="h-16 md:h-24"
+              />
+            </div>
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-2 text-center">
               Annual Revenue Meet 2025-26 • Bangkok
             </h2>
