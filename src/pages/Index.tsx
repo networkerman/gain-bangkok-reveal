@@ -49,11 +49,11 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-netcore-purple mb-4">About GAIN 2025</h2>
             <p className="text-gray-700 text-lg">
               Join us in Bangkok for our Annual Revenue Meet, where we'll focus on our core pillars for 2025 and beyond: 
-              Growth, AI, Innovation, and Netcore's transformative journey.
+              Growth, AI, and Netcore's transformative journey.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
               <div className="text-4xl font-extrabold text-netcore-gold mb-4">G</div>
               <h3 className="text-xl font-bold text-netcore-purple mb-2">Growth</h3>
@@ -67,14 +67,6 @@ const Index = () => {
               <h3 className="text-xl font-bold text-netcore-purple mb-2">AI</h3>
               <p className="text-gray-700">
                 Leveraging artificial intelligence to enhance our products, improve customer experiences, and drive innovation.
-              </p>
-            </div>
-            
-            <div className="bg-gray-50 p-6 rounded-lg hover:shadow-md transition-shadow">
-              <div className="text-4xl font-extrabold text-netcore-gold mb-4">I</div>
-              <h3 className="text-xl font-bold text-netcore-purple mb-2">Innovation</h3>
-              <p className="text-gray-700">
-                Breaking new ground with innovative solutions, fresh perspectives, and creative approaches to market challenges.
               </p>
             </div>
             
