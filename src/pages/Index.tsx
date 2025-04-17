@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CountdownTimer from '../components/CountdownTimer';
@@ -15,14 +14,16 @@ const Index = () => {
       <section className="relative min-h-screen bg-hero-pattern bg-cover bg-center flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-netcore-purple/80 to-netcore-purple/50"></div>
         <div className="container mx-auto px-4 z-10 py-20">
-          <div className="max-w-3xl animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-4">
-              Netcore Annual Revenue Meet 2025
-            </h1>
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              <span className="text-netcore-gold">G</span>rowth • <span className="text-netcore-gold">A</span>I • <span className="text-netcore-gold">I</span>nnovation • <span className="text-netcore-gold">N</span>etcore
+          <div className="max-w-3xl animate-fade-in flex flex-col items-center">
+            <img 
+              src="/lovable-uploads/81b146f0-8a93-400d-bdd9-7edbbf6ac6a2.png" 
+              alt="GAIN 2025 Logo" 
+              className="mb-6 max-w-full h-auto md:max-w-xl"
+            />
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-2 text-center">
+              Annual Revenue Meet 2025-26 • Bangkok
             </h2>
-            <p className="text-white text-xl mb-6">April 24-26, 2025 • Bangkok, Thailand</p>
+            <p className="text-white text-xl mb-6 text-center">April 24-26, 2025</p>
             
             <CountdownTimer />
             
