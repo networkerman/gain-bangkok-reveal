@@ -15,12 +15,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-netcore-purple/80 to-netcore-purple/50"></div>
         <div className="container mx-auto px-4 z-10 py-20">
           <div className="max-w-3xl animate-fade-in flex flex-col items-center">
-            <div className="flex items-center space-x-4 mb-6">
-              <img 
-                src="/lovable-uploads/81b146f0-8a93-400d-bdd9-7edbbf6ac6a2.png" 
-                alt="GAIN 2025 Logo" 
-                className="max-w-full h-auto md:max-w-xl"
-              />
+            <div className="absolute top-4 left-4">
               <img 
                 src="/lovable-uploads/d6970007-2ab7-4073-9098-d94ee5012b0f.png" 
                 alt="Netcore Logo" 
@@ -209,14 +204,6 @@ const Index = () => {
                 View Travel Guidelines
                 <ArrowRight size={16} className="ml-1" />
               </Link>
-            </div>
-            
-            <div className="md:w-1/2">
-              <img 
-                src="https://images.unsplash.com/photo-1508009603885-50cf7c8dd0d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80"
-                alt="Bangkok Skyline"
-                className="rounded-lg shadow-md w-full h-auto"
-              />
             </div>
           </div>
         </div>
